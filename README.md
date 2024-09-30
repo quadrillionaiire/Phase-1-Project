@@ -40,7 +40,7 @@ Provide an outline of the repository, explaining what each folder and file conta
 
 /data: A brief description of the datasets used, including sources.
 /notebooks: Notebooks detailing data exploration, cleaning, analysis, and modeling.
-/scripts: Python or R scripts for automating tasks like data processing.
+/scripts: Python scripts for automating tasks like data processing.
 /images: Contains final visuals, plots, or links to Tableau dashboards.
 
 3. Data Science Steps
@@ -58,11 +58,10 @@ Guide users on how to navigate the repository, including how to replicate the pr
 5. Tableau Dashboard
 Include a link to the Tableau dashboard:
 
-Tableau Dashboard
+Tableau Dashboard   
 6. Presentation
 Provide a link to the final project presentation:
 
-Project Presentation
 7. Sources
 
 List any references or external data sources used:
