@@ -3,7 +3,7 @@ Key things to include:
 Project Overview
 #Stakeholder & Business QUESTIONS
 #Data Soucres 
-#Links to notebooks, preentations, and dashboards
+#Links to notebooks, preentations, and dashboards 
 
 Additional Notes
 Business Problem: A clear statement of the business problem you are solving.
