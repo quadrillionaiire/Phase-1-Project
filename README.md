@@ -48,6 +48,7 @@ contact info (linkedIn)
 ├── .gitignore
 ```
 
+
 # Phase-1-Project
 Key things to include:
 Project Overview
