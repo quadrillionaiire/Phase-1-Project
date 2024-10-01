@@ -39,11 +39,13 @@ contact info (linkedIn)
 ## Repository Structure 
 
 ```
+├── dashboard
 ├── data
 ├── images
-├── README.md
-├── Animal_Shelter_Needs_Presentation.pdf
-└── animal_shelter_needs_analysis.ipynb
+├── notebooks
+├── presentations
+├── src
+├── .gitignore
 ```
 
 # Phase-1-Project
