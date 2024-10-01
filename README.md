@@ -1,3 +1,54 @@
+![dataset cover](./images/dataset-cover.png)
+
+# National UFO Reporting Center Data Analysis
+
+## Overview
+
+This project analyzes UFO sighting data collected by the National UFO Reporting Center (NUFORC), which has recorded over 80,000 reports from 1949 to 2013. By conducting a descriptive analysis of sighting locations, timings, and characteristics, we aim to uncover patterns and trends in UFO sightings. Our analysis explores key questions such as the most commonly reported UFO shapes, the times and places where sightings are most frequent, and whether any correlations exist between the time of sighting and the likelihood of a UFO encounter.
+
+## Business Problem 
+![ufo image from nuforc](images/S178691_1.jpg)
+
+By identifying patterns in UFO sightings, the National UFO Reporting Center can enhance its ability to communicate findings to researchers, enthusiasts, and governmental entities. Providing clear, data-driven visualizations of UFO sighting frequencies, shapes, and encounter characteristics will improve the understanding of these phenomena. This, in turn, will support strategic decisions related to future research, public education, and potential resource allocation for investigating UFO encounters.
+
+## Data Understanding 
+
+The dataset contains detailed information on UFO sightings reported globally. It includes key features like the date and time of the sighting, geographic information (country, region, and locale), descriptions of the UFO (shape and encounter duration), and other attributes that can be used for exploratory data analysis and predictive modeling.
+Given the diverse nature of this dataset, we will focus on cleaning and processing the data to answer three key business questions:
+
+1. What regions and times have the highest frequency of UFO sightings?
+     - We will use the Country, Region, Locale, Year, Month, Hour, and Season columns to find the hotspots for UFO activity.
+2. Are there notable patterns in UFO shapes, descriptions, or lengths of encounters?
+     - The columns UFO_shape, length_of_encounter_seconds, and Description will be analyzed to explore common shapes, durations, and narratives in the reported encounters.
+3. Can any correlations be drawn between the timing (season, time of day) and the likelihood of a sighting?
+     - We will explore correlations between the Season, Month, Hour, and length_of_encounter_seconds to see if UFO sightings show patterns based on the time of day or season of the year.
+
+## Data Preparation
+
+## Analysis & Results
+
+## Conclusions
+
+### Next Steps
+
+## For More Information
+
+#Links to notebooks, preentations, and dashboards 
+contact info (linkedIn)
+
+## Repository Structure 
+
+```
+├── dashboard
+├── data
+├── images
+├── notebooks
+├── presentations
+├── src
+├── .gitignore
+```
+
+
 # Phase-1-Project
 Key things to include:
 Project Overview
