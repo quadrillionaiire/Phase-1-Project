@@ -66,8 +66,7 @@ Time-Based Correlations: There is a weak negative correlation (-0.04) between th
 
 ## For More Information
 
-#Links to notebooks, preentations, and dashboards 
-contact info (linkedIn)
+See the full analysis in the [Jupyter Notebook](https://github.com/quadrillionaiire/Phase-1-Project/blob/main/notebooks/clean_notebook.ipynb) or review this [presentation](url)
 
 ## Repository Structure 
 
