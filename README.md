@@ -70,7 +70,7 @@ See the full analysis in the [Jupyter Notebook](https://github.com/quadrillionai
 
 Tableau Dashboard link 
 
-[Original data source from Kaggle]([https://www.kaggle.com/datasets/jonwright13/ufo-sightings-around-the-world-better/data])
+[Original data source from Kaggle](https://www.kaggle.com/datasets/jonwright13/ufo-sightings-around-the-world-better/data)
 
 ## Repository Structure 
 
