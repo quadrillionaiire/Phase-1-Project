@@ -97,9 +97,9 @@ Time-Based Correlations: There is a weak negative correlation (-0.04) between th
 
 ## For More Information
 
-See the full analysis in the [Jupyter Notebook](https://github.com/quadrillionaiire/Phase-1-Project/blob/main/notebooks/clean_notebook.ipynb) or review this [presentation](url)
+See the full analysis in the [Jupyter Notebook](https://github.com/quadrillionaiire/Phase-1-Project/blob/main/notebooks/clean_notebook.ipynb) or review this [presentation](https://github.com/quadrillionaiire/Phase-1-Project/blob/main/presentation/1_Phase%201%20Group%20Project.pdf)
 
-Tableau Dashboard link 
+[Tableau Dashboard link ](https://public.tableau.com/app/profile/erica.robinson3500/viz/Phase1_Dashboard_Presentation/UFOUAPintheUSAStatsandTrendsupto2014?publish=yes)
 
 [Original data source from Kaggle](https://www.kaggle.com/datasets/jonwright13/ufo-sightings-around-the-world-better/data)
 
