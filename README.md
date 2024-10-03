@@ -32,13 +32,17 @@ This project applies descriptive analysis to understand patterns in UFO sighting
 
 Geographic Trends: The United States, particularly California, has the highest number of reported UFO sightings, followed by Washington and Florida. Sightings are most frequent during the summer months, peaking in July.
 
-![region chart](./images/Screenshot 2024-10-03 at 12.58.51 PM.png)
-![region chart](images/Screenshot 2024-10-03 at 12.58.51 PM.png)
+![region chart](images/topregiongraph.png)
+
 Sighting Characteristics: The most commonly reported UFO shape is "light," followed by "triangle" and "circular." Most sightings are brief, with a median encounter length of 180 seconds.
-![sighting characteristics graph](images/Screenshot 2024-10-03 at 12.59.21 PM.png)
+
+![sighting characteristics graph](images/topshapegraphs.png)
+
+![encounter length](images/lengthofencounterbargraph.png)
 
 Time-Based Correlations: There is a weak negative correlation (-0.04) between the length of sightings and the time of day, suggesting little connection between sighting duration and the hour of occurrence.
-![correlation graph](images/Screenshot 2024-10-03 at 1.00.00 PM.png)
+
+![correlation graph](images/correlationgraph.png)
 
 ## Conclusions
 
