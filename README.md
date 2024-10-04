@@ -27,6 +27,7 @@ Given the diverse nature of this dataset, we will focus on cleaning and processi
 
 This project applies descriptive analysis to understand patterns in UFO sightings, utilizing visualizations to examine trends over time, geographic hotspots, and sighting characteristics such as shape and encounter duration. Correlation analysis was also conducted to investigate potential relationships between the timing of sightings and their duration.
 
+We then focused on the USA and extended our analysis by creating shape categories to compare trends in types of shapes and lastly we reverse geolocated our data to obtain county-level information and subsetted to only the most recent 3 years of data ( full data from 2011 to 2013) and included our partial data from early 2014 as being most recently relevant despite incompleteness. With this we were able to generate a county "heat score" from the number of encounters weighted by population and recency and an "average" sighting location by county.
 
 ## Analysis & Results
 
@@ -34,9 +35,17 @@ Geographic Trends: The United States, particularly California, has the highest n
 
 ![region chart](images/topregiongraph.png)
 
-Sighting Characteristics: The most commonly reported UFO shape is "light," followed by "triangle" and "circular." Most sightings are brief, with a median encounter length of 180 seconds.
+When taking population into account, the regions with highest reported activity recently are in central Montana, south Texas, and around Washington DC.
 
-![sighting characteristics graph](images/topshapegraphs.png)
+![heat map](images/heatmap.png)
+
+Sighting Characteristics: The most commonly reported UFO shape is "light," followed by "triangle" and "circular" but when sorted into simpler categories "rounded" shapes rivalled sightings of lights in prevalence. 
+
+![sighting shapes bar graph](images/topshapegraphs.png)
+
+![sighting simplified shapes graph](images/Shape_Prevalence.png)
+
+Most sightings are brief, with a median encounter length of 180 seconds.
 
 ![encounter length](images/lengthofencounterbargraph.png)
 
@@ -47,10 +56,10 @@ Time-Based Correlations: There is a weak negative correlation (-0.04) between th
 ## Conclusions
 
 - **UFO Sightings by Region and Time**:  
-  The United States, especially California, leads in UFO sightings by a significant margin. Sightings peak during the summer months, particularly in July and August, and are more frequent in coastal and densely populated areas. The trend over the years shows a rise in sightings after 2010, with a peak in 2012, followed by a decline.
+  The United States, especially California, leads in UFO sightings by a significant margin. Sightings peak during the summer months, particularly in July and August, and are more frequent in coastal and densely populated areas. The trend over the years shows a rise in sightings after 2010, with a peak in 2012, followed by a slight decline. The regions showing most activity per population in early 2014 were central Montana, south Texas, and the area around the District of Columbia.
 
 - **Patterns in UFO Shapes and Descriptions**:  
-  The most commonly reported UFO shape is "light," followed by "triangle" and "circular" forms. The descriptions often include terms like "light," "moving," and "sky." The distribution of the length of encounters suggests most sightings are brief, with a median duration of around 180 seconds.
+  The most commonly reported UFO shape is "light," followed by "triangle" and "circular" forms, although as a category "rounded" objects were more prevalent than "tapered" objects like traingles. The descriptions often include terms like "light," "moving," and "sky." The distribution of the length of encounters suggests most sightings are brief, with a median duration of around 180 seconds.
 
 - **Correlation Between Timing and Sightings**:  
   There is no strong correlation between the time of day (hour) and the duration of encounters, with a weak negative correlation (-0.04). This suggests that while there may be certain times with more sightings, the length of these encounters does not significantly vary based on the time.
@@ -106,7 +115,7 @@ Time-Based Correlations: There is a weak negative correlation (-0.04) between th
 
 See the full analysis in the [Jupyter Notebook](https://github.com/quadrillionaiire/Phase-1-Project/blob/main/notebooks/clean_notebook.ipynb) or review this [presentation](https://github.com/quadrillionaiire/Phase-1-Project/blob/main/presentation/1_Phase%201%20Group%20Project.pdf)
 
-[Tableau Dashboard link ](https://public.tableau.com/app/profile/erica.robinson3500/viz/Phase1_Dashboard_Presentation/UFOUAPintheUSAStatsandTrendsupto2014?publish=yes)
+[Tableau Dashboard link ](https://public.tableau.com/views/Phase1_Dashboard_Presentation/UFOUAPintheUSATrendsasof2014)
 
 [Original data source from Kaggle](https://www.kaggle.com/datasets/jonwright13/ufo-sightings-around-the-world-better/data)
 
